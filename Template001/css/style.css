@@ -1,0 +1,126 @@
+html,body{
+	margin:0;
+	padding:0;
+}
+
+
+.fullWidth{
+	width:100%;
+}
+.width-960{
+	width:960px;
+	margin:0 auto;
+}
+.floatLeft{
+	float:left;
+}
+.floatRight{
+	float:right;
+}
+.clearFix{
+	clear:both;
+}
+
+.header{
+	height:100px;
+}
+.slider{
+	height:300px;
+	background:url(../images/bg.jpg);
+	background-size: cover;
+	color:white;
+}
+
+.portfolio{
+
+}
+.about_us{
+
+}
+.contact_us{
+
+}
+.footer{
+	height:100px;
+}
+.heading{
+	text-align:center;
+}
+.btnGroup{
+	text-align: center;
+}
+.btnGroup ul{
+	margin:0;
+	padding:0;
+}
+.btnGroup ul li{
+	list-style: none;
+	display: inline-block;
+	background:aqua;
+	padding:10px 20px;
+	margin:20px 10px;
+
+}
+.row{
+	text-align: center;
+}
+.row div{
+	border-radius:100%;
+	background:aqua;
+	display: inline-block;
+	margin:20px 40px;
+	padding:15px;
+	box-shadow: 5px 5px 10px darkgray;
+
+}
+.row div img{
+	width:100px;
+
+}
+.workersRow{
+	text-align: center;
+
+}
+.workersRow div{
+	width:calc(33.33% - 80px);
+	height:350px;
+	overflow: hidden;
+	float: left;
+	margin:20px 40px;
+	transition: all .2s ease;
+}
+.workersRow div:hover{
+	overflow:auto;
+	height:auto;
+}
+.workersRow div img{
+	width:100%;
+}
+.contactForm input,.contactForm textarea{
+	padding:5px 10px;
+	margin:10px;
+}
+.contactForm textarea{
+	display:block;
+	width:calc(100% - 40px);
+}
+.contactForm input:last-child{
+	float:right;
+	padding:10px 30px;
+
+}
+.contactForm div{
+	width:50%;
+	float:left;
+
+}
+
+.contactForm div:last-child ul{
+	margin:0;
+	padding:0;
+}
+.contactForm div:last-child ul li{
+	list-style: none;
+	padding:10px 20px;
+
+}
